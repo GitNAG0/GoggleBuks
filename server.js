@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 mongoose.set('useCreateIndex', true);
 
 // Define Middleware Here -------------------------------------
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve Up Static Assets (usually on Heroku) -----------------
@@ -19,7 +19,7 @@ app.use(routes);
 
 // Connect to the MongoDB Database ----------------------------
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googlebooks';
-mongoose.connect(MONGODB_URI, {useNewUrlParser: true});
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 app.listen(PORT, () => {
   console.log(`API Server now on port: ${PORT}`)
