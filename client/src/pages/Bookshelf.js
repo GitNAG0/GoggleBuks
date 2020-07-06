@@ -32,7 +32,7 @@ class Bookshelf extends Component {
           title="My Bookshelf"
           lead="All of Your Saved Books in One Convenient Location."
           instructions="View your book at Google, or remove it from your Bookshelf..."
-          image="https://i0.wp.com/www.wayfaringviews.com/wp-content/uploads/2016/05/Last_Bookstore.jpg?ssl=1"
+          image=""
         />
         <BookCard
           books={this.state.books}
