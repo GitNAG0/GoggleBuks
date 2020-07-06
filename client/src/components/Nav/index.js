@@ -5,7 +5,7 @@ function Index() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
-          MERN Digital Library
+          GoggleBuks
         </Link>
       <div className="container">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -18,13 +18,13 @@ function Index() {
               <Link to="/"
                     className={window.location.pathname === "/" || window.location.pathname === "/search"
                       ? "nav-link active"
-                      : "nav-link"}>Search</Link>
+                      : "nav-link"}>Click here to Search</Link>
             </li>
             <li className="nav-item">
               <Link to="/bookshelf"
                     className={window.location.pathname === "/bookshelf"
                       ? "nav-link active"
-                      : "nav-link"}>My Bookshelf</Link>
+                      : "nav-link"}>Bookshelf</Link>
             </li>
           </ul>
         </div>
