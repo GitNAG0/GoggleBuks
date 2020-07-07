@@ -100,7 +100,7 @@ class Search extends Component {
           title="Search"
           lead="Using Google Books API"
           instructions="Search for a book; then view it on Google Books, or add it to your Bookshelf..."
-          image=""
+          image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhct9ZGpOhO9eT4OeiCWgqTVxQbFg-obj3_w&usqp=CAU"
         />
         <SearchForm
           handleInputChange={this.handleInputChange}
