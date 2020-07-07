@@ -32,7 +32,7 @@ class Bookshelf extends Component {
           title="My Bookshelf"
           lead="All of Your Saved Books in One Convenient Location."
           instructions="View your book at Google, or remove it from your Bookshelf..."
-          image=""
+          image="client\src\img\shelf.jpg"
         />
         <BookCard
           books={this.state.books}
