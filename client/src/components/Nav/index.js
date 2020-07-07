@@ -19,7 +19,7 @@ function Index() {
               <Link to="/"
                     className={window.location.pathname === "/" || window.location.pathname === "/search"
                       ? "nav-link active"
-                      : "nav-link"}>Click here to Search</Link>
+                      : "nav-link"}>Click to Search</Link>
             </li>
             <li className="nav-item">
               <Link to="/bookshelf"
