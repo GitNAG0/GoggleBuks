@@ -4,7 +4,7 @@ import './style.css';
 
 function Index() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="navbar-brand" to="/">
           GoggleBuks
         </Link>
